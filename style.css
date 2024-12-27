@@ -49,6 +49,13 @@ a {
     color: #f9faf8;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+    gap: 32px;
+}
+
 .title {
     display: flex;
     align-items: center;
