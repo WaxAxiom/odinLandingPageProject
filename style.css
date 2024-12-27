@@ -4,6 +4,17 @@ body {
     margin: 0;
 }
 
+ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
 .header, .title, .footer {
     background: #1f2937;
     padding-left: 10%;
@@ -11,10 +22,15 @@ body {
 }
 
 .header {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
     color: #f9faf8;
+}
+
+.headerLogo {
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .mainText {
@@ -31,12 +47,6 @@ body {
 .titleImage {
     background: #e5e7eb;
     color: #f9faf8;
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-    gap: 32px;
 }
 
 .title {
